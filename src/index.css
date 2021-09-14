@@ -1,0 +1,229 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.form1{
+  margin: auto;
+  margin-top: 60px;
+  width: 20%;
+  border: 1px solid rgb(97, 109, 97);
+  padding: 10px;
+  background-color: rgba(127, 255, 212, 0.452);
+  border-radius: 5px;
+}
+.av{
+  
+  font-size: 20px;
+}
+
+
+form {
+  border: 3px solid #f1f1f1;
+}
+
+
+input[type=text],
+input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+
+.btn2 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 50px;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+}
+.btn1{
+  width: 10%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+
+
+
+.container {
+  padding: 26px;
+}
+
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+
+@media screen and (max-width: 300px) {
+  span.psw {
+      display: block;
+      float: none;
+  }
+  .cancelbtn {
+      width: 100%;
+  }
+  
+}
+@media screen and (max-width: 600px) {
+button {
+   
+  margin: 8px 0;
+  width:100%;
+  
+}
+}
+
+.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.l1 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .header-right {
+    float: none;
+  }
+}
+
+.left{
+  width:20%;
+  height:auto;
+  background-color: #b2bbb2;
+}
+.right{
+  width:80%;
+  height:auto;
+}
+.center{
+  margin: auto;
+  width: 50%;
+ text-align: center;
+  padding: 10px;
+  color:#f1f1f1;
+
+}
+
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+ 
+.sidebar a.active {
+  background-color: #39ace2;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+  position: absolute;
+  left:70px;
+  top:85px;
+}
+.box{
+  margin: 40px;
+  width:800px;
+  height:300px;
+  background-color: #39ace2;
+}
+
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+
+.add{
+  font-size: 40px;
+  border: 1px solid rgb(222, 222, 236);
+  border-radius: 50%;
+  background-color: aquamarine;
+  position:absolute;
+  top:100px;
+  left:265px;
+}
+.right{
+ 
+  position: absolute;
+  top:5px;
+  right:-800px;
+  font-size: 20px;
+}
+.back{
+background-color: rgb(145, 245, 245);
+margin: 10px;
+padding: 10px;
+text-align: center;
+}
+.n1{
+  width:70%;
+  margin: 30px;
+}
